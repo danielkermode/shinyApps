@@ -1,0 +1,24 @@
+this is for my reference.
+
+git init
+(initialises at directory of git)
+
+git add [file or folder name which also has to be in the directory of git]
+
+git commit -m "commit" 
+
+(commit tracked changes, not too sure exactly what this does but "commit" comes up as a name beside the uploaded files.)
+
+git remote add origin [url]
+
+(sets repository url to github repository url, if it is the same repository as used previously you'll get an error but it's fine.)
+
+git remote -v
+(verifies remote URL)
+
+git push origin master
+(uploads the new local repository to the repository on github, and does any changes on the files in github.
+may have to use "git pull" to get files from github if there are files that don't exist in the local repository but 
+exist on github.)
+
+
